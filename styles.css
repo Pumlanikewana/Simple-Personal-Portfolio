@@ -134,257 +134,14 @@ li {
     background-color: var(--primary-color);}
 .bg-secondary {
     background-color: var(--secondary-color);}
-.bg-white {
-    background-color: var(--white-color);}
-.bg-black {
-    background-color: var(--black-color);}
-.bg-faded-blue {
-    background-color: var(--faded-blue);}
 .bg-gray {
     background-color: var(--gray-color);}
 .bg-grey {
     background-color: var(--grey-color);}
-.bg-green {
-    background-color: var(--green-color);}
-.bg-yellow {
-    background-color: var(--yellow-color);}
-.bg-red {
-    background-color: var(--red-color);}
-/* 
-    CONTAINER, COLUMNS, SECTIONS, HEADER, FOOTER 
-*/
-.header {
-    padding: 0 80px;
-    margin: 40px 0px;
-}
-.section, .footer {
-    padding: 0 80px;
-    margin: 80px 0;
-}
-.container {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-.column {
-    flex: 1;
-}
-@media (max-width: 768px) {
-    .header, .section, .footer {
-        padding: 0 30px;
-        margin: 40px 0;
-    }
-}
-@media (max-width: 567px) {
-    .header, .section, .footer {
-        padding: 0 20px;
-        margin: 15px 0;
-    }
-    .container {
-        flex-direction: column;
-    }
-    .column {
-        flex-basis: 100%;
-    }
-}
-@media (min-width: 568px) {
-    /* 1-column */
-    .column {
-        flex-basis: 100%;}
-    /* 2-columns */
-    .column {
-        flex-basis: 50%;}
-    /* 3-columns */
-    .column {
-        flex-basis: 33.3333333333%;}
-    /* 4-columns */
-    .column {
-        flex-basis: 25%;}
-    /* 5-columns */
-    .column {
-        flex-basis: 20%;}
-    /* 6-columns */
-    .column {
-        flex-basis: 16.6666666667%;}
-    /* 7-columns */
-    .column {
-        flex-basis: 14.2857142857%;}
-    /* 8-columns */
-    .column {
-        flex-basis: 12.5%;}
-    /* 9-columns */
-    .column {
-        flex-basis: 11.1111111111%;}
-    /* 10-columns */
-    .column {
-        flex-basis: 10%;}
-}
-/* 
-    COLUMN SPAN 
-*/
-.column-span-1 {
-    flex: 1;}
-.column-span-2 {
-    flex: 2;}
-.column-span-3 {
-    flex: 3;}
-.column-span-4 {
-    flex: 4;}
-.column-span-5 {
-    flex: 5;}
-.column-span-6 {
-    flex: 6;}
-.column-span-7 {
-    flex: 7;}
-.column-span-8 {
-    flex: 8;}
-.column-span-9 {
-    flex: 9;}
-.column-span-10 {
-    flex: 10;}
-/* 
-    DISPLAY 
-*/
-.d-flex {
-    display: flex;}
-.d-block {
-    display: block;}
-.d-inline {
-    display: inline;}
-.d-grid {
-    display: grid;}
-.d-inline-flex {
-    display: inline-flex;}
-.d-inline-block {
-    display: inline-block;}
-.d-none {
-    display: none;}
-.d-inherit {
-    display: inherit;}
-.d-initial {
-    display: initial;}
-.d-unset {
-    display: unset;}
-/* 
-    TEXT ALIGNMENT 
-*/
-.text-center {
-    text-align: center;}
-.text-left {
-    text-align: left;}
-.text-right {
-    text-align: right;}
-.text-start {
-    text-align: start;}
-.text-end {
-    text-align: end;}
-.text-justify {
-    text-align: justify;}
-.text-inherit {
-    text-align: inherit;}
-.text-unset {
-    text-align: unset;}
-.text-initial {
-    text-align: initial;}
-.text- {
-    text-align: unset;}
-/* 
-    JUSTIFY CONTENT 
-*/
-.justify-content-center {
-    justify-content: center;}
-.justify-content-space-between {
-    justify-content: space-between;}
-.justify-content-space-around {
-    justify-content: space-around;}
-.justify-content-space-evenly {
-    justify-content: space-evenly;}
-.justify-content-start {
-    justify-content: left;}
-.justify-content-end {
-    justify-content: end;}
-.justify-content-inherit {
-    justify-content: inherit;}
-.justify-content-initial {
-    justify-content: initial;}
-.justify-content-stretch {
-    justify-content: stretch;}
-.justify-content-unset {
-    justify-content: unset;}
-/* 
-    ALIGN ITEMS 
-*/
-.align-items-center {
-    align-items: center;}
-.align-items-start {
-    align-items: start;}
-.align-items-end {
-    align-items: end;}
-.align-items-baseline {
-    align-items: baseline;}
-.align-items-flex-start {
-    align-items: flex-start;}
-.align-items-flex-end {
-    align-items: flex-end;}
-.align-items-stretch {
-    align-items: stretch;}
-.align-items-inherit {
-    align-items: initial;}
-.align-items-initial {
-    align-items: initial;}
-.align-items-normal {
-    align-items: normal;}
-
-.hero {
-    text-align: center;
-    margin-top: 60px;
-}
-.hero h1 {
-    font-size: 60px;
-}
-.hero h1 span {
-    color: var(--gray-color);
-}
-.hero .hero-buttons {
-    margin-top: 60px;
-}
-.hero .hero-image-one {
-    width: 350px;
-    border-radius: 20px;
-}
-.hero .hero-image-two {
-    height: 400px;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 20px;
-}
-.hero .hero-images {
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 80px;
-}
-@media (max-width: 567px) {
-    .hero {
-        margin-top: 30px;
-    }
-    .hero h1 {
-        font-size: 35px;
-    }
-    .hero .hero-buttons {
-        margin-top: 30px;
-    }
-    .hero .hero-images {
-        display: none;
-    }
-}
-
 
 /*
     ABOUT
 */
-/* Reset and base styles */
 * {
     margin: 0;
     padding: 0;
@@ -406,7 +163,8 @@ body {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
-    padding: 20px;
+    margin-top: 30px;
+   
 }
 h1, h2 {
     color: #2c3e50;
@@ -417,7 +175,9 @@ h2 {
 
 }
 
-/* Introduction styles */
+/* 
+    Introduction styles 
+*/
 .intro {
     display: flex;
     align-items: center;
@@ -436,7 +196,9 @@ h2 {
     margin-bottom: 10px;
 }
 
-/* Timeline styles */
+/* 
+    Timeline styles 
+*/
 .timeline {
     position: relative;
     padding-left: 30px;
@@ -470,24 +232,24 @@ h2 {
     margin-bottom: 5px;
 }
 
-/* Skills styles */
-/* .skills {
-    display: flex;
-    flex-wrap: wrap;
-}
-    
-} */
+/* 
+    Skills styles 
+*/
+
 .skills .skill i {
     font-size: 24px; /* Icon size */
-    margin-right: 8px; /* Space between icon and text */
+    margin-right: 2px; /* Space between icon and text */
     border-radius: 15px;
     font-size: 0.9em;
     margin-bottom: 15px;
     margin-top: 10px;
-    gap: 10px
+    gap: 5px
 }
 
-/* Specific colors for each icon */
+/* 
+    Specific colors for each icon
+ */
+
 .skills .skill i.fab.fa-html5 {
     color: #E44D26; /* HTML5 color */
 }
@@ -651,6 +413,7 @@ h2 {
     padding-bottom: 50px;
     justify-content: space-between;
     border-bottom: 1px solid var(--gray-color);
+    margin-top: 70px;
 }
 .footer .footer-links .footer-link {
     margin-bottom: 10px;
@@ -726,4 +489,8 @@ h2 {
     .footer .footer-social-content h2 {
         margin-bottom: 15px;
     }
+}
+.footer-margin {
+    margin-left: 180px ;
+    margin-right: 180px;
 }
