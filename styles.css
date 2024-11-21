@@ -140,6 +140,36 @@ li {
     background-color: var(--grey-color);}
 
 /*
+     Navigation Bar 
+*/
+/* Reset some default styles for better control */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar container */
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 2px solid #f0f0f0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem 2rem;
+}
+
+/* Logo styling */
+.logo {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Navbar text (brand name) */
+.navbar span {
+    font-family: 'Roboto', sans-serif;
+    color: #2d3748;
+}
+
+
+/*
     ABOUT
 */
 * {
@@ -493,4 +523,30 @@ h2 {
 .footer-margin {
     margin-left: 180px ;
     margin-right: 180px;
+}
+ /* Services section */
+ .services {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+.services h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.service-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.service-item {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.service-item i {
+    font-size: 2em;
+    color: #3498db;
+    margin-bottom: 20px;
 }
