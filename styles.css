@@ -507,6 +507,12 @@ h2 {
     display: flex;
     gap: 20px;
 }
+footer {
+    max-width: 1200px; 
+    margin: 0 auto;   
+    padding: 10px 20px; 
+    font-size: 0.9rem; 
+  }
 .footer .footer-bottom-links .bottom-links a,  .bottom-p {
     font-size: 12px;
     color: var(--grey-color);
