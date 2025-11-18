@@ -6,7 +6,7 @@
     <title>Personal Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body class="bg-gray-50">
     <div class="max-w-6xl mx-auto px-4 py-8">
@@ -27,96 +27,13 @@
                 <a href="Contact.html" class="text-gray-600 hover:text-pink-500">Contact</a>
             </div>  
         </nav>
-    </body>
-    <main>
-        <style>
-            /* Base styles */
-            body {
-                font-family: Arial, sans-serif;
-                line-height: 1.6;
-                color: #333;
-                background-color: #f4f4f4;
-                margin: 0;
-                padding: 0;
-            }
-            .container {
-                max-width: 1200px;
-                margin: 0 auto;
-                padding: 20px;
-            }
-            h1 {
-                text-align: center;
-                margin-bottom: 30px;
-            }
-    
-            /* Project grid layout */
-            .projects-grid {
-                display: grid;
-                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-                gap: 30px;
-            }
-            .project-card {
-                background-color: #fff;
-                border-radius: 8px;
-                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-                overflow: hidden;
-                transition: transform 0.3s ease;
-            }
-            .project-card:hover {
-                transform: translateY(-5px);
-            }
-    
-            /* Project image styles */
-            .project-image {
-                width: 100%;
-                height: 200px;
-                object-fit: cover;
-            }
-    
-            /* Project content styles */
-            .project-content {
-                padding: 20px;
-            }
-            .project-title {
-                font-size: 1.5em;
-                margin-bottom: 10px;
-                color: #2c3e50;
-            }
-            .project-description {
-                font-size: 0.9em;
-                color: #7f8c8d;
-                margin-bottom: 15px;
-            }
-    
-            /* Project links styles */
-            .project-links {
-                display: flex;
-                justify-content: space-between;
-            }
-            .project-link {
-                text-decoration: none;
-                color: #3498db;
-                font-weight: bold;
-                transition: color 0.3s ease;
-            }
-            .project-link:hover {
-                color: #2980b9;
-            }
-    
-            /* Responsive design */
-            @media (max-width: 768px) {
-                .projects-grid {
-                    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-                }
-            }
-        </style>
-    
+        <main>
         <div class="container">
             <h1 class="text-pink-500 text-2xl font-semibold">My Projects</h1>
             <div class="projects-grid">
                 <!-- Project 1 -->
                 <div class="project-card">
-                    <img src="./Pictures/project1.JPG" alt="" class="project-image">
+                    <img src="./Pictures/mov.JPG" alt="Movies Web Application" class="project-image">
                     <div class="project-content">
                         <h2 class="project-title">Movies Web Application</h2>
                         <p class="project-description">The Movie Database Explorer is a web application designed to provide users with detailed information about movies, actors, and directors. By leveraging the powerful MovieDB API, the application allows users to search for movies, view detailed movie information, and explore related content.</p>
@@ -129,53 +46,115 @@
     
                 <!-- Project 2 -->
                 <div class="project-card">
-                    <img src="./Pictures/livestock.jpg" alt="Project 2" class="project-image">
+                    <img src="/Pictures/Scent.JPG" alt="The Scent Gallery" class="project-image">
                     <div class="project-content">
-                        <h2 class="project-title">Livestock tracking Application</h2>
-                        <p class="project-description">This application receives data from an ESP32 device and visualizes it using Google Maps. The data tracks the movement of livestock and is part of a collaborative project between Project Y and Strategic Dimensions.</p>
+                        <h2 class="project-title">The Scent Gallery</h2>
+                        <p class="project-description">A full‑stack e‑commerce website for a cologne store called The Scent Gallery, using the MERN stack (MongoDB, Express, React, Node.js) and integrated Yoco for secure online payments. The site allows customers to browse a curated collection of Arabian‑inspired fragrances, view detailed product pages, manage a cart, and complete checkout with real card/EFT payments.</p>
                         <div class="project-links">
-                            <a href="https://github.com/Pumlanikewana target=_blank" class="text-pink-500 font-semibold">Github Link</a>
-                            <a href="#" class="text-pink-500 font-semibold">Private Repository</a>
+                            <a href="https://github.com/Pumlanikewana" target="_blank" class="text-pink-500 font-semibold">Github Link</a>
+                            <a href="#" class="text-pink-500 font-semibold">View Live</a>
                         </div>
                     </div>
                 </div>
     
                 <!-- Project 3 -->
                 <div class="project-card">
-                    <img src="./Pictures/taskly.JPG" alt="Project 3" class="project-image">
+                    <img src="/Pictures/nudle.jpg" alt="Nudle Frontend" class="project-image">
                     <div class="project-content">
-                        <h2 class="project-title">Taskly</h2>
-                        <p class="project-description">Smart Personal Task Manager: Users will be able to create tasks and set due dates. Set priority levels and be able to update, delete, and mark as complete, or incomplete. Dashboard displays the overview. Integration with Google Calendar for task scheduling. View completed tasks and productivity reports. Statistics: for a task completed in a week and pending tasks. AI: Using AI to suggest tasks based on previous activities, AI can estimate how long the task might take to complete based on users' past performance.</p>
+                        <h2 class="project-title">Nudle Frontend</h2>
+                        <p class="project-description">Basic End User Computing Course designed to empower unemployed youth, adults, and first-time computer users with practical digital skills.
+                            The course covers:
+                            Basic computer operations
+                            Email and internet use
+                            Microsoft Word, Excel, PowerPoint
+                            An introduction to AI tools (e.g., ChatGPT).</p>
                         <div class="project-links">
-                            <a href="https://github.com/Pumlanikewana target=_blank" class="text-pink-500 font-semibold">Github Link</a>
+                            <a href="https://github.com/Pumlanikewana" target="_blank" class="text-pink-500 font-semibold">Github Link</a>
                             <a href="#" class="text-pink-500 font-semibold">Private Repository</a>
                         </div>
                     </div>
                 </div>
+
+                <!-- Project 4 -->
                 <div class="project-card">
-                    <img src="./Pictures/One Piece Madlib.JPG" alt="Project 3" class="project-image">
+                    <img src="/Pictures/livestock.jpg" alt="Livestock Tracking Application" class="project-image">
                     <div class="project-content">
-                        <h2 class="project-title">One Piece Madlib Game</h2>
-                        <p class="project-description">A Madlib game is a fun, word-based activity where one player prompts others to fill in blanks in a story without revealing the full context. The game begins with a template story with various words missing, which could be nouns, verbs, adjectives, or adverbs. Players are asked to provide these words based on their respective types. Once all the blanks are filled, the story is read aloud, often resulting in a humorous and nonsensical narrative.</p>
+                        <h2 class="project-title">Livestock tracking Application</h2>
+                        <p class="project-description">This application receives data from an ESP32 device and visualizes it using Google Maps. The data tracks the movement of livestock and is part of a collaborative project between Project Y and Strategic Dimensions.</p>
                         <div class="project-links">
-                            <a href="https://github.com/Pumlanikewana target=_blank" class="text-pink-500 font-semibold">Github Link</a>
-                            <a href="" class="text-pink-500 font-semibold">Private Repository</a>
+                            <a href="https://github.com/Pumlanikewana" target="_blank" class="text-pink-500 font-semibold">Github Link</a>
+                            <a href="#" class="text-pink-500 font-semibold">Private Repository</a>
                         </div>
                     </div>
                 </div>
-                 <!-- Project 4 -->
-                 <div class="project-card">
-                    <img src="Pictures/cart" alt="Project 2" class="project-image">
+    
+                <!-- Project 5 -->
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x200/3b82f6/ffffff?text=Taskly" alt="Taskly Application" class="project-image">
+                    <div class="project-content">
+                        <h2 class="project-title">Taskly</h2>
+                        <p class="project-description">Smart Personal Task Manager: Users will be able to create tasks and set due dates. Set priority levels and be able to update, delete, and mark as complete, or incomplete. Dashboard displays the overview. Integration with Google Calendar for task scheduling. View completed tasks and productivity reports. Statistics: for a task completed in a week and pending tasks. AI: Using AI to suggest tasks based on previous activities, AI can estimate how long the task might take to complete based on users' past performance.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Pumlanikewana" target="_blank" class="text-pink-500 font-semibold">Github Link</a>
+                            <a href="#" class="text-pink-500 font-semibold">Private Repository</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x200/8b5cf6/ffffff?text=E-commerce+API" alt="E-commerce API" class="project-image">
                     <div class="project-content">
                         <h2 class="project-title">E-commerece API</h2>
                         <p class="project-description">An e-commerce API enables communication between different software systems to facilitate online shopping operations. It typically supports functionalities like product management (adding, updating, and deleting products), user management (authentication, profile updates, and order tracking), payment processing, inventory management, and order fulfillment.</p>
                         <div class="project-links">
-                            <a href="https://github.com/Pumlanikewana target=_blank" class="text-pink-500 font-semibold">Github Link</a>
-                            <a href="https://github.com/202404-Y-ZA-FSW/backend-e-commerce-angela-pumlani-thabiso" class="text-pink-500 font-semibold">Source Code</a>
+                            <a href="https://github.com/Pumlanikewana" target="_blank" class="text-pink-500 font-semibold">Github Link</a>
+                            <a href="https://github.com/202404-Y-ZA-FSW/backend-e-commerce-angela-pumlani-thabiso" target="_blank" class="text-pink-500 font-semibold">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                 
+                <!-- Project 7 -->
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x200/14b8a6/ffffff?text=Social+Media+App" alt="Social Media Application" class="project-image">
+                    <div class="project-content">
+                        <h2 class="project-title">iOS-Inspired Operating System</h2>
+                        <p class="project-description">A modern social media application built with React and Node.js that enables users to connect, share posts, and interact with content. Features include user profiles, real-time messaging, photo sharing, like and comment functionality, friend connections, and a personalized news feed. The platform emphasizes user privacy and provides a seamless social networking experience.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Pumlanikewana" target="_blank" class="text-pink-500 font-semibold">Github Link</a>
+                            <a href="#" class="text-pink-500 font-semibold">View Live</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 8 -->
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x200/a855f7/ffffff?text=Task+Manager" alt="Task Management System" class="project-image">
+                    <div class="project-content">
+                        <h2 class="project-title">Lifestyle Survey</h2>
+                        <p class="project-description">A comprehensive project management tool designed to help teams collaborate and track their work efficiently. Features include task assignment, progress tracking, team collaboration, deadline management, file sharing, and real-time updates. Built with a focus on productivity and user experience, it helps teams stay organized and meet their project goals.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Pumlanikewana" target="_blank" class="text-pink-500 font-semibold">Github Link</a>
+                            <a href="#" class="text-pink-500 font-semibold">Private Repository</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 9 -->
+                <div class="project-card">
+                    <img src="/Pictures/One Piece Madlib.PNG" alt="One Piece Madlib Game" class="project-image">
+                    <div class="project-content">
+                        <h2 class="project-title">One Piece Madlib Game</h2>
+                        <p class="project-description">A Madlib game is a fun, word-based activity where one player prompts others to fill in blanks in a story without revealing the full context. The game begins with a template story with various words missing, which could be nouns, verbs, adjectives, or adverbs. Players are asked to provide these words based on their respective types. Once all the blanks are filled, the story is read aloud, often resulting in a humorous and nonsensical narrative.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Pumlanikewana" target="_blank" class="text-pink-500 font-semibold">Github Link</a>
+                            <a href="" class="text-pink-500 font-semibold">Private Repository</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         </main>
-    </html>
+    </div>
+</body>
+</html>

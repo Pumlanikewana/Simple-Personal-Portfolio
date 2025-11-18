@@ -188,6 +188,10 @@ body {
     margin: 0 auto;
     padding: 20px;
 }
+/* Projects page container inside main should be wider */
+main .container {
+    max-width: 1200px;
+}
 .card {
     background-color: #fff;
     border-radius: 8px;
@@ -585,5 +589,69 @@ footer {
 
     .service-item p {
         font-size: 0.875rem;
+    }
+}
+
+/*
+    PROJECTS
+*/
+/* Projects page container override - wider container for projects grid */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+.project-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Project image styles */
+.project-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Project content styles */
+.project-content {
+    padding: 20px;
+}
+.project-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+.project-description {
+    font-size: 0.9em;
+    color: #7f8c8d;
+    margin-bottom: 15px;
+}
+
+/* Project links styles */
+.project-links {
+    display: flex;
+    justify-content: space-between;
+}
+.project-link {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+.project-link:hover {
+    color: #2980b9;
+}
+
+/* Projects page responsive design */
+@media (max-width: 768px) {
+    .projects-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
 }
