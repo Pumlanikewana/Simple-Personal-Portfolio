@@ -393,6 +393,27 @@ h2 {
     border: 1px solid var(--gray-color);
     border-radius: 10px;
 }
+/* International phone input styling */
+.iti {
+    width: 100%;
+}
+.iti__flag-container {
+    border-radius: 10px 0 0 10px;
+}
+#phonenumber {
+    border-radius: 0 10px 10px 0;
+    padding-left: 52px;
+}
+.form-message {
+    width: 100%;
+    margin-top: 5px;
+    font-size: 13px;
+    padding: 8px;
+    border: 1px solid var(--gray-color);
+    border-radius: 10px;
+    font-family: inherit;
+    resize: vertical;
+}
 .contact-form .form-group .checkbox {
     border: 1px solid var(--gray-color);
     font-size: 14px;
